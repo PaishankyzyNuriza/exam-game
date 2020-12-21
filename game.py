@@ -12,6 +12,7 @@ Platform_hei = 20
 Platform_block = (Platform_wid, Platform_hei)
 screen = pygame.display.set_mode(DISPLAY)
 
+
 def main():
     pygame.init()
     pygame.display.set_caption("Platformer")
@@ -102,11 +103,5 @@ def main():
         player.update(levo, pravo, verh, platform)
 
 
-
 if __name__ == "__main__":
     main()
-
-
-
-
-
