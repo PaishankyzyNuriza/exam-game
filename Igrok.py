@@ -9,6 +9,7 @@ height = 20
 jump = 10
 gravitation = 0.9
 
+
 class Igrok(sprite.Sprite):
     def __init__(self, x, y):
         sprite.Sprite.__init__(self)
@@ -51,7 +52,7 @@ class Igrok(sprite.Sprite):
                     self.death()
                 if isinstance(n, block.Trophey):
                     win = True
-                    if win == True:
+                    if win == if cond is True:
                         t = pygame.font.Font(None, 80)
                         text = t.render('You Win!!!', 3, (0, 0, 0))
                         screen.blit(text, (250, 250))
